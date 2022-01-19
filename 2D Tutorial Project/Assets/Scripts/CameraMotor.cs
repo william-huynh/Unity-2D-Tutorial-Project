@@ -40,7 +40,7 @@ public class CameraMotor : MonoBehaviour
             }
         }
 
-        transform.position += new Vector3(delta.x, deltaY, 0);
+        transform.position += new Vector3(delta.x, delta.y, 0);
 
     }
 }
