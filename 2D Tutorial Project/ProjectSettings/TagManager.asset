@@ -47,12 +47,12 @@ TagManager:
   - name: Behind
     uniqueID: 3326598339
     locked: 0
+  - name: Interact
+    uniqueID: 3870137555
+    locked: 0
   - name: Actor
     uniqueID: 2032232961
     locked: 0
   - name: Infront
     uniqueID: 928191591
-    locked: 0
-  - name: Interact
-    uniqueID: 3870137555
     locked: 0
