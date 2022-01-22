@@ -53,3 +53,6 @@ TagManager:
   - name: Infront
     uniqueID: 928191591
     locked: 0
+  - name: Interact
+    uniqueID: 3870137555
+    locked: 0
