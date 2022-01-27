@@ -41,7 +41,7 @@ public class Enemy : Mover
                 if (!collingWithPlayer)
                 {
                     UpdateMotor((playerTransform.position - transform.position).normalized); // chase player
-                    Debug.Log("chasing");
+                    // Debug.Log("chasing");
                 }
             }
             else
