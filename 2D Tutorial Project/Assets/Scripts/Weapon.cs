@@ -6,13 +6,14 @@ public class Weapon : Collidable
 {
     // Damage struct
     public int damagePoint = 1;
-    public float pushForce = 2.0f;
+    public float pushForce = 3.0f;
 
     // Upgrade
     public int weaponLevel = 0;
     private SpriteRenderer spriteRenderer;
 
     // Swing
+    private Animator animate;
     private float cooldown = 0.5f;
     private float lastSwing;
 
@@ -20,6 +21,7 @@ public class Weapon : Collidable
     {
         base.Start();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        animate = GetComponent<Animator>();
     }
 
     protected override void Update()
@@ -56,6 +58,6 @@ public class Weapon : Collidable
 
     private void Swing()
     {
-        Debug.Log("Swing!");
+        animate.SetTrigger("Swing");
     }
 }
